@@ -32,3 +32,5 @@ export const MyLabel = ({
 }: Props) => {
   return <span className={`label ${size} text-${color}`} style={{color: fontColor}}>{ allCaps? label.toUpperCase() : label}</span>;
 };
+
+export default MyLabel
